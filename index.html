@@ -4,11 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Figuras Geometricas</title>
 </head>
 <body>
-    <h1>Figuras geometricas</h1>
+    <header class="head">
+        <h1>figuras geometricas</h1>
+        <p>Determina el area y el perimetro de las figuras rellenando ciertos datos</p>
+    </header>
 
+    <main class="mainContainer">
+        <nav class="nav">
+            <ul>
+                <li id="square"><img src="./images/contorno-de-forma-cuadrada.png" alt="" srcset=""></li>
+                <li id="circle"><img src="./images/dry-clean.png" alt="" srcset=""></li>
+                <li id="triangle"><img src="./images/triangle-outline-variant.png" alt="" srcset=""></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="formSection">
+                <h2>¡Calcula el area y perimetro <br>de un cuadrado!</h2>
+                <p>Introduce el valor de uno de los lados del cuadrado y dale calcular para ver el resultado</p>
+                <div class="formSquare">
+                    <span>lado</span><br>
+                    <input type="text" name="" id="inputSquare"> <br>
+                    <button onclick="calculateSquare()" > calcular </button>
+                </div>
+            </div>
+            <div class="imageSection">
+                <img src="./images/contorno-de-forma-cuadrada.png" alt="">
+                <div class="responses">
+                    <p id="perimetro">El perimetro es: 40</p>
+                    <p id="area">El area es: 40</p>
+                </div>
+            </div>
+        </div>
+        
+    </main>
     <script src="./script.js"></script>
 </body>
 </html>

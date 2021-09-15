@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+@font-face {
+    font-family: Blanka-Regular;
+    src: url(./Blanka-Regular.otf);
+}
+
+body {
+    background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.head{
+    color: #eee;
+    width: 100%;
+}
+
+.head h1{
+    font-family: Blanka;
+    font-size: 3rem;
+    text-align: center;
+    letter-spacing: 8px;
+    margin: 15px 0px;
+}
+.head p{
+    text-align: center;
+    font-size:1.1rem;
+}
+
+main{
+    width:70%;
+    margin: auto;
+    max-width: 1200px;
+    background-color: rgba(30,30,30,0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    backdrop-filter: blur(20px);
+}
+
+.content{
+    display: flex;
+}
+
+.nav{
+    max-width: 1200px;
+    background-color: #0d324d;
+    background-image: linear-gradient(315deg, #0d324d 0%, #534055 74%);
+    margin:30px auto auto auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.nav ul{
+    margin:auto;
+    width:30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav li{
+    list-style: none;
+    margin: 15px 0px;
+}
+
+.nav li:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+
+.nav img{
+    width:50px;
+    margin:auto;
+}
+
+.formSection{
+    width:50%;
+    color: #eee;
+    text-align: center;
+    padding: 0px 15px;
+    margin:auto
+}
+
+.formSection h2{
+    font-size:1.5rem;
+    margin-bottom: 10px;
+}
+
+.formSection p{
+    font-size:1rem;
+    margin-bottom: 20px;
+}
+
+.formSquare {
+    width:100%;
+}
+
+.formSquare input{
+    width:80%;
+    padding:10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.formSquare input[type="submit"]{
+    background-color: #3BBAED;
+}
+
+.imageSection{
+    width:50%;
+    color: #eee;
+    text-align: center;
+    padding: 40px 15px;
+}
+
+.imageSection img{
+    width: 250px;
+    display: block;
+    margin:auto;
+}
+
+.responses{
+    color: #000;
+    width: 70%;
+    margin:15px  auto;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+}
+
+.responses p{
+    margin:8px;
+}
