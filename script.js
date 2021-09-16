@@ -143,5 +143,4 @@ calculateTriangle = () => {
 
     perimeter.innerHTML = `El perimetro es: ${perimetroTriangulo(Number(side1),Number(side2),Number(base))}`;
     area.innerHTML = `El area es: ${areaTriangulo(base,hight)}`;
-
 }
